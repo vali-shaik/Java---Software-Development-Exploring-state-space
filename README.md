@@ -82,9 +82,6 @@ Constraints
 ============
 • You may use any data structures from the Java Collection Framework.
 • You may not use an existing library that already solves this puzzle
-• If in doubt for testing, I will be running your program on bluenose.cs.dal.ca. Correct
-operation of your program shouldn’t rely on any packages that aren’t available on that
-system.
 
 Notes
 ========
