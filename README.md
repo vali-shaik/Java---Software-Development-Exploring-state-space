@@ -1,24 +1,9 @@
 # Java---Software-Development-Exploring-state-space
 Work with exploring state space
 
-Background
-============
-Games are a domain in which the player searches through a set of possible local solutions to
-find an answer that satisfies all of the puzzle’s constraints.
-In this assignment, you will be solving a fill-in puzzle like the ones
-at https://api.razzlepuzzles.com/fillin In short, you are given
-positions on a grid where a word could fit. The positions for these
-words can cross one another; the two words must have a common
-letter at the crossing point. You are also given a set of words that
-should all fit into the puzzle (Figure 1). Your task is to map the
-words to their positions in the final puzzle (Figure 2).
-Each word provided will have a place in the solved puzzle and each
-word spot in the puzzle will end up with a word in it. No word is
-used twice.
-
 Problem
 =========
-Write a class called “FillInPuzzle” that accepts accepts a puzzle
+Write a class that accepts accepts a puzzle
 and a set of words and ultimately solves the puzzle.
 The class has at least 3 methods:
 - Boolean loadPuzzle(BufferedReader stream) – Read a
@@ -70,23 +55,3 @@ Outputs
 The print( ) method produces output to the given output stream. Empty spaces between words
 are filled with spaces. The output will be designed for a fixed-width font. It prints the grid with
 column 0, row 0 in the bottom left corner (so prints the maximum row first).
-
-Assumptions
-==============
-You may assume that
-- No word is repeated in the set of input words.
-- The puzzle is case invariant.
-- The words in the puzzle all fill from left to right or from top to bottom.
-
-Constraints
-============
-• You may use any data structures from the Java Collection Framework.
-• You may not use an existing library that already solves this puzzle
-
-Notes
-========
-- Develop a strategy on how you will solve the puzzle before you finalize and start coding
-your data structure(s) for the puzzle
-- Work incrementally. First write the code to read in a puzzle. Test that. Next, write the
-code to print a solution, whatever solution you have. Test that. Then, write your code
-to solve the puzzle.
